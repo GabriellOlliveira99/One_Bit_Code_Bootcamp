@@ -1,32 +1,32 @@
 // FILA DE ESPERA
-// let queue = [];
-// do {
-//   let position = "";
-//   for (let i = 0; i < queue.length; i++) {
-//     position += `${i + 1}º ${queue[i]} \n`;
-//   }
-//   options = prompt(
-//     `Bem vindo ao Hospital!\n ${position} \n Selecione uma opção do menu: \na) Novo Paciente \nb) Consultar Paciente \nc) Sair \n `
-//   );
+let queue = [];
+do {
+  let position = "";
+  for (let i = 0; i < queue.length; i++) {
+    position += `${i + 1}º ${queue[i]} \n`;
+  }
+  options = prompt(
+    `Bem vindo ao Hospital!\n ${position} \n Selecione uma opção do menu: \na) Novo Paciente \nb) Consultar Paciente \nc) Sair \n `
+  );
 
-//   switch (options) {
-//     case "a":
-//       let newPatient = prompt("Digite o nome do novo paciente:");
-//       queue.push(newPatient);
-//       break;
-//     case "b":
-//       let consulted = queue.shift();
-//       alert(`${consulted} acabou de se consultar.`);
-//       break;
-//     case "c":
-//       alert("Encerrando...");
-//       break;
+  switch (options) {
+    case "a":
+      let newPatient = prompt("Digite o nome do novo paciente:");
+      queue.push(newPatient);
+      break;
+    case "b":
+      let consulted = queue.shift();
+      alert(`${consulted} acabou de se consultar.`);
+      break;
+    case "c":
+      alert("Encerrando...");
+      break;
 
-//     default:
-//       alert("Opção Inválida.");
-//       break;
-//   }
-// } while (options != "c");
+    default:
+      alert("Opção Inválida.");
+      break;
+  }
+} while (options != "c");
 
 //PILHA DE CARTAS
 
