@@ -1,0 +1,190 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.logo-one-bit-code {
+  width: 200px;
+}
+
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  padding: 30px;
+  background-color: #292929;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 8px 15px;
+}
+
+.buttons {
+  display: flex;
+  gap: 15px;
+}
+
+.button {
+  border: none;
+  background-color: transparent;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.button:hover {
+  color: #ff0044;
+  text-decoration: underline;
+}
+
+.titulo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 25px;
+  gap: 10px;
+}
+
+.titulo-princ {
+  font-size: 30px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.subtitle-princ {
+  color: #383838;
+  font-size: 18px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.img-sports {
+  width: 350px;
+  height: 200px;
+  border-radius: 10px;
+  transition: transform 0.5s;
+}
+
+.img-sports:hover {
+  transform: scale(1.03);
+}
+
+.titulo-sports {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+}
+
+.sport {
+  padding: 5px;
+}
+
+.sport p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+}
+
+.sports {
+  margin-top: 50px;
+  flex: 1 0 auto;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-areas:
+    "item1 item2 item3 item4"
+    "item5 item6 item7 item4"
+    "item8 item9 item10 item4";
+  gap: 20px 10px;
+}
+
+.img-categ-extra {
+  height: 150px;
+  width: 250px;
+  border-radius: 3%;
+  transition: transform 0.5s;
+}
+
+.img-categ-extra:hover {
+  transform: scale(1.05);
+}
+
+.container-extra {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 17px;
+  background-color: darkgray;
+  color: black;
+  padding: 0px;
+  border-radius: 10px;
+}
+
+.titulo-cat-extra {
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 10px;
+}
+
+.sub-categ-extra {
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.item1 {
+  grid-area: item1;
+}
+
+.item2 {
+  grid-area: item2;
+}
+
+.item3 {
+  grid-area: item3;
+}
+
+.item4 {
+  grid-area: item4;
+}
+
+.item5 {
+  grid-area: item5;
+}
+
+.item6 {
+  grid-area: item6;
+}
+
+.item7 {
+  grid-area: item7;
+}
+
+.item8 {
+  grid-area: item8;
+}
+
+.item9 {
+  grid-area: item9;
+}
+
+.item10 {
+  grid-area: item10;
+}
+
+.footer {
+  padding: 20px 30px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer a {
+  color: white;
+  font-size: 17px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.footer a:hover {
+  color: #ff0044;
+}
